@@ -1,6 +1,6 @@
-const altura_cm = 151;
-const altura_m = 1.51;
-const peso_kg = 54.2;
-const altura_red = Math.ceil(altura_m);
-const peso_red = Math.floor(peso_kg);
-const sonIguales = Number.MAX_VALUE + 1 === Number.MAX_VALUE;
+const alturaCm = 151;
+const alturaMts = 1.51;
+const pesoKg = 54.2;
+const alturaRedondeada = Math.ceil(alturaMts);
+const pesoRedondeado = Math.floor(pesoKg);
+const Valor = Number.MAX_VALUE + 1 === Number.MAX_VALUE;
