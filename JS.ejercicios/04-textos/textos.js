@@ -1,0 +1,10 @@
+const nombre="Pamela Elin";
+const apellido="Sosa";
+const estudiante=nombre.concat(" ",apellido);
+const estudianteMayus=estudiante.toUpperCase();
+const estudianteMinus=estudiante.toLowerCase();
+const estudianteLength = estudiante.length;
+const inicialNombre=nombre[0];
+const finalApellido=apellido[apellido.length-1];
+const estudianteSinEspacios= estudiante.replace(/ /g, "");
+const nombreContenidoEnEstudiante= estudiante.includes(nombre);
