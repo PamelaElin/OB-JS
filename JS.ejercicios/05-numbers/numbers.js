@@ -3,4 +3,4 @@ const alturaMts = 1.51;
 const pesoKg = 54.2;
 const alturaRedondeada = Math.ceil(alturaMts);
 const pesoRedondeado = Math.floor(pesoKg);
-const Valor = Number.MAX_VALUE + 1 === Number.MAX_VALUE;
+const valor = Number.MAX_VALUE + 1 === Number.MAX_VALUE;
